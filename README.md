@@ -1,4 +1,7 @@
 # ahmbohlah
+<video width="320" height="240" controls>
+<source src="https://cdn.aisbircubes.my.id/2024-02-18%2018-12-00.mp4" type="video/mp4">
+</video>
 gw sih aggre with your oppinion kek litteraly wicis also cool good af 
 
 ## Step by step
