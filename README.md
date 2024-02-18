@@ -1,6 +1,6 @@
 # ahmbohlah
-![](https://cdn.aisbircubes.my.id/2024-02-18%2018-12-00.mp4)
-gw sih aggre with your oppinion kek litteraly wicis also cool good af 
+https://cdn.aisbircubes.my.id/2024-02-18%2018-12-00.mp4
+> Epic demo
 
 ## Step by step
 - Download file zip ini
