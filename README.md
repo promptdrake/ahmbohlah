@@ -2,6 +2,15 @@
 https://cdn.aisbircubes.my.id/2024-02-18%2018-12-00.mp4
 > Epic demo
 
+## Domain Yang tersedia
+| Domain         | Status    |
+|--------------|-----------|
+| aisbirpedia.my.id | ✅      |
+| dreams.my.id | ✅  |
+| Elitemc.me | ✅  |
+| aisbircubes.tech | ✅  |
+
+
 ## Step by step
 - Download file zip ini
 - Unzip ke folder
