@@ -7,7 +7,6 @@ https://cdn.aisbircubes.my.id/2024-02-18%2018-12-00.mp4
 |--------------|-----------|
 | aisbirpedia.my.id | ✅      |
 | dreams.my.id | ✅  |
-| Elitemc.me | ✅  |
 | aisbircubes.tech | ✅  |
 
 
