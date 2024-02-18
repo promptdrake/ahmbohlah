@@ -41,8 +41,7 @@ export default {
       const allowDomain = "mail.canva.com";
     const senderEmailDomain = message.from.split('@')[1];
     if (senderEmailDomain !== allowDomain) {
-      message.forward("admin@aisbircubes.my.id");
-      return;
+      return false;
     }
 
        const subject = message.headers.get('subject');
