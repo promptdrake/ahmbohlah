@@ -40,7 +40,7 @@ EMAIL_ARRIVED
     "message": "377117 is your canva code"
 }
 ```
-<hr>
+---
 Add Email Canva
 ```batch
 POST https://aisbirapi.cyclic.app/api/post/canva/:gmail/:otp/:message
