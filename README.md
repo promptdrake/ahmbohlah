@@ -1,6 +1,9 @@
 # ahmbohlah
 https://cdn.aisbircubes.my.id/2024-02-18%2018-12-00.mp4
 > Epic demo
+---
+ini Bukan sekedaar kalian ketik domain terus bisa
+kalian harus beli domain dulu buat ngebikin emailnya
 
 ## Domain Yang tersedia
 | Domain         | Status    |
