@@ -12,3 +12,52 @@ gw sih aggre with your oppinion kek litteraly wicis also cool good af
 Chat ke https://t.me/aisbirkoenz
 atau join grub wa gw
 https://chat.whatsapp.com/Ctkzu6cmHasDYaYtPFdHyN
+
+# Dev Docs
+Jika kamu ingin membuat custom domain silahkan<br>
+buat gateway email untuk canva<br>
+disini example Url request
+
+Get Email canva
+```batch
+GET https://aisbirapi.cyclic.app/api/get/canva/:gmail
+```
+
+Add Email Canva
+```batch
+POST https://aisbirapi.cyclic.app/api/post/canva/:gmail/:otp/:message
+```
+
+Delete Email
+```batch
+GET https://aisbirapi.cyclic.app/api/get/delete/canva/:gmail
+```
+
+## Example
+Disini saya menggunakan worker cloudflare
+```javascript
+export default {
+  async email(message, env, ctx) {
+      const allowDomain = "mail.canva.com";
+    const senderEmailDomain = message.from.split('@')[1];
+    if (senderEmailDomain !== allowDomain) {
+      message.forward("admin@aisbircubes.my.id");
+      return;
+    }
+
+       const subject = message.headers.get('subject');
+    const regexMatch = subject.match(/\b\d+\b/);
+    const otpNumber = regexMatch ? regexMatch[0] : null;
+if(otpNumber !== null){
+  console.log("Not Null")
+    await fetch(`https://aisbirapi.cyclic.app/api/post/canva/${message.to}/${otpNumber}/${encodeURIComponent(subject)}`, {
+      method: 'POST',
+    });
+}
+else {
+  console.log("Empty canva otp")
+}
+  }
+  }
+```
+
