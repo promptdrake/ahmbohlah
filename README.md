@@ -22,7 +22,25 @@ Get Email canva
 ```batch
 GET https://aisbirapi.cyclic.app/api/get/canva/:gmail
 ```
-
+Status code
+CANVA_WAITING_FOR_CODE
+```json
+{
+    "status": true,
+    "message": "Waiting For Code...",
+    "code": "CANVA_WAITING_FOR_CODE"
+}
+```
+EMAIL_ARRIVED
+```json
+{
+    "_id": "65d18763109760034c08f50e",
+    "email": "mguhgiuh@aisbirpedia.my.id",
+    "otp": "377117",
+    "message": "377117 is your canva code"
+}
+```
+<hr>
 Add Email Canva
 ```batch
 POST https://aisbirapi.cyclic.app/api/post/canva/:gmail/:otp/:message
@@ -59,4 +77,7 @@ else {
   }
   }
 ```
+
+### Kebingungan?
+tanya ke [@penyukaberuang](https://t.me/penyukaberuang)
 
