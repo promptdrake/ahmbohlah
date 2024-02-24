@@ -11,6 +11,7 @@ kalian harus beli domain dulu buat ngebikin emailnya
 | aisbirpedia.my.id | ✅      |
 | dreams.my.id | ✅  |
 | aisbircubes.tech | ✅  |
+| mail.dreams.my.id | Fraud  |
 
 
 ## Step by step
