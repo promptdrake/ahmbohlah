@@ -12,7 +12,8 @@ kalian harus beli domain dulu buat ngebikin emailnya
 | dreams.my.id | ✅  |
 | aisbircubes.tech | ✅  |
 | mail.dreams.my.id | Fraud  |
-
+| m.aisbircubes.my.id | ✅ |
+| destroyer.dreams.my.id | ✅ |
 
 ## Step by step
 - Download file zip ini
