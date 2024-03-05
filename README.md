@@ -17,6 +17,7 @@ kalian harus beli domain dulu buat ngebikin emailnya
 | aisbircubes.my.id | Fraud |
 
 ## Step by step
+install [NODEJS WINDOW](https://nodejs.org/en/download/) first!
 - Download file zip ini
 - Unzip ke folder
 - klik install.bat
